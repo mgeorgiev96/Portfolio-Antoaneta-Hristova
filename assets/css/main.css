@@ -3449,7 +3449,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/background_m.png");
+		background-image: url("../../images/back2.jpg");
 		background-position: center center;
 		background-size: cover;
 		min-height: 100vh;
@@ -3480,13 +3480,13 @@ input, select, textarea {
 
 			#banner .content header {
 				display: inline-block;
-				vertical-align: middle;
+
 			}
 
 				#banner .content header h1 {
 					font-size: 5rem;
 					margin: 0;
-					color: #D3B094;
+					color: black;
 					font-family: 'Belleza', sans-serif;
 					
 				}
@@ -3501,15 +3501,17 @@ input, select, textarea {
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 12em;
+				height: 20em;
 				margin-left: 15em;
 				vertical-align: middle;
-				width: 12em;
-				background-image: url("/images/profile_antoaneta.jpg");
-				transform: scale(2);
+				width: 20em;
+				background-image: url("../../images/antoaneta_prof.jpg");
 				background-size: cover;
 				background-position: center;
 				background-repeat: no-repeat;
+				margin: 0 auto;
+				margin-top: 30%;
+				border: 4px solid black;
 			}
 
 				#banner .content .image img {
@@ -3923,7 +3925,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #D3B094;
+						background: #39c088;
 						color: rgba(0, 0, 0, 0.8);
 						content: '\f0c9';
 						display: block;
@@ -4218,11 +4220,11 @@ input, select, textarea {
 	transition: 300ms;
 }
 .custom_navbar .regular_link:hover a:before{
-	background-color: #D3B094;
+	background-color: #39c088;
 	bottom: -3px;
 }
 .custom_navbar .regular_link:hover a{
-	color: #D3B094 !important;
+	color: #39c088 !important;
 	border-bottom-color: transparent;
 }
 .custom_navbar li a:visited{
@@ -4253,13 +4255,14 @@ input, select, textarea {
 	transition: 200ms;
 	padding: 20px!important;
 }
-.dropdown-menu .dropdown-item{
+.dropdown-item{
 	font-size: 1.3rem!important;
 	position: relative;
+	color: white!important;
 }
 
 .dropdown-menu li:hover a{
-	color:#D3B094!important;
+	color:#39c088!important;
 	background-color: rgba(0, 0, 0, 0);
 }
 .dropdown-menu li .dropdown-item:before{
@@ -4272,7 +4275,7 @@ input, select, textarea {
 	transition: 300ms;
 }
 .dropdown-menu li:hover .dropdown-item:before{
-	background-color: #D3B094;
+	background-color: #39c088;
 	bottom: 0;
 }
 @media all and (max-width:1001px){
@@ -4450,7 +4453,7 @@ input, select, textarea {
 	border-bottom: 3px solid black;
 }
 #navPanel li:hover{
-	border-bottom: 3px solid #D3B094;
+	border-bottom: 3px solid #39c088;
 }
 
 .carousel-item img{
@@ -4481,11 +4484,11 @@ input, select, textarea {
 	font-family: 'Assistant', sans-serif;
 }
 .section_about:hover h1{
-	color:#D3B094;
+	color:#39c088;
 	
 }
 .section_about:hover i{
-	color:#D3B094;
+	color:#39c088;
 }
 .section_about p{
 	color: white;
@@ -4528,6 +4531,23 @@ input, select, textarea {
 	color: #D3B094;
 	font-family: 'Belleza', sans-serif;
 	
+}
+#banner .content header h1 p{
+	font-size: 2rem!important;	
+}
+#banner .content .image {
+	border-radius: 100%;
+	display: inline-block;
+	height: 12em;
+	margin-left: 15em;
+	vertical-align: middle;
+	width: 12em;
+	background-image: url("../../images/profile_antoaneta.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 1%;
 }
 	
   }
