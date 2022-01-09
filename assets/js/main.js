@@ -58,11 +58,11 @@
 						'<li><a href="#">Home</a>'+
 						'<li><a href="#about">About</a></li>'+
 						'<li><a href="#seo_projects">SEO Projects</a></li>'+
-						'<li><a href="#content_strategy">Content Strategy Projects</a></li>'+
-						'<li><a href="#facebook_strategy">Facebook Strategy Projects</a></li>'+
-						'<li><a href="#ppc_projects">PPC Projects</a></li>'+
-						'<li><a href="#google_articles">Google Analytics Articles</a></li>'+
-						'<li><a href="#certifications">Certifications</a></li>'+
+						'<li><a href="#content_strategy">Content Strategy Project</a></li>'+
+						'<li><a href="#facebook_strategy">Facebook Strategy Project</a></li>'+
+						'<li><a href="#ppc_projects">PPC Project</a></li>'+
+						'<li><a href="#google_articles">Google Articles</a></li>'+
+						'<li><a href="#certifications">Certificates</a></li>'+
 						'<li><a href="#contact">Contact</a></li>>'+
 					'</ul>'+
 					'</nav>' +
